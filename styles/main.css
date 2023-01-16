@@ -24,9 +24,6 @@ h1, ul {
 .list-welcome{
   padding: 1vh 5vw;
 }
-nav{
-
-}
 .nav-cont{
   background-color: RGB(235,246,247,.5);
 }
@@ -55,6 +52,12 @@ footer{
 }
 .galaxy-brain {
   width: 25vw;
+}
+
+@media (min-width: 1200px){
+  img{
+    content: url(../images/galaxy-brain.png); /*Need to replace alt text with Javascript*/
+  }
 }
 
 @media (max-width: 768px){
