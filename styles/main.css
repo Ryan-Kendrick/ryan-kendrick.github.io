@@ -1,5 +1,10 @@
 body{
   margin: 0;
+  background-image: url("../images/snowbg.avif");
+  object-fit: cover;
+  width: 80vw;
+  margin: auto;
+  object-fit: cover;
 }
 header{
   background-color: #4d697c;
@@ -18,9 +23,15 @@ h1{
   .list-welcome{
     padding: .75vh 4vw
   }
+  body {
+    width: 100%;
+  }
 }
 nav{
-  background-color: #EFF0ED;
+
+}
+.nav-cont{
+  background-color: RGB(235,246,247,.5);
 }
 .list-nav{
   list-style-type: none;
