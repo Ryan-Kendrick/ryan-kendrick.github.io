@@ -12,20 +12,17 @@ header{
   text-align: center;
   padding-top: 10vh;
   font-size: 4em;
+  
 }
 h1{
-  padding-bottom: 1vh;
+  padding: 0.67em 0 0 0;
+  text-align: center;
+}
+h1, ul {
+  margin-block: 0;
 }
 .list-welcome{
   padding: 1vh 5vw;
-}
-@media (max-width: 768px){
-  .list-welcome{
-    padding: .75vh 4vw
-  }
-  body {
-    width: 100%;
-  }
 }
 nav{
 
@@ -43,20 +40,10 @@ nav{
   grid-template-columns: 2fr 2fr;
   height: 70vh;
 }
-@media (max-width: 320px){
-  header{
-    height: 15vh;
-    padding-top: 7.5vh;
-    font-size: 3em;
-  }
-  .grid {
-    display: block;
-  }
-}
+
 .grid-welcome{
   background-color: #D0BC68;
 }
-
 
 .grid-f {
   display: grid;
@@ -68,4 +55,26 @@ footer{
 }
 .galaxy-brain {
   width: 25vw;
+}
+
+@media (max-width: 768px){
+  .list-welcome{
+    padding: .75vh 4vw
+  }
+  body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px){
+  header{
+    height: 15vh;
+    padding-top: 7.5vh;
+    font-size: 3em;
+  }
+  .grid {
+    display: block;
+    vertical-align: bottom;
+
+  }
 }
