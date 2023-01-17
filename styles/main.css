@@ -2,7 +2,7 @@ body{
   margin: 0;
   background-image: url("../images/snowbg.avif");
   background-repeat: no-repeat;
-  background-color:  rgb(235,246,247)
+  background-color:  rgb(99,144,175);
   object-fit: cover;
   width: 80vw;
   margin: auto;
