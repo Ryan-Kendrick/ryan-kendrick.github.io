@@ -50,6 +50,9 @@ h1, ul {
 }
 footer{
   background-color: rgb(174,129,83);
+  position: relative;
+  top: 20vh;
+  vertical-align: bottom;
 }
 .galaxy-brain {
   width: 25vw;
@@ -78,7 +81,9 @@ footer{
   }
   .grid {
     display: block;
-    vertical-align: bottom;
-
+    padding-top: 5vh;
+  }
+  .nav-cont{
+    margin-top: 5vh;
   }
 }
