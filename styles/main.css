@@ -5,6 +5,7 @@ body{
   width: 80vw;
   margin: auto;
   object-fit: cover;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 header{
   background-color: #4d697c;
@@ -14,17 +15,36 @@ header{
   font-size: 4em;
   color: RGB(235,246,247);
 }
-h1{
-  padding: 0.67em 0 0 0;
+.h1-welcome{
   text-align: center;
 }
 h1, ul {
   margin-block: 0;
 }
+.h1-blog {
+  text-align: center;
+  padding-bottom: 1vh;
+}
+.blog-cont p, .blog-cont h2{
+  padding: 0 2vw 2vw 2vw;
+}
+.blog-cont h1{
+  text-align: center;
+}
+h1{
+  padding: 0.67em 0 0 0;
+}
 .list-welcome{
   padding: 1vh 5vw;
 }
+.list-horizontal li{
+  display: inline-block;
+  padding: 5vw;
+}
 .nav-cont{
+  background-color: rgb(235,246,247,.5);
+}
+.blog-cont{
   background-color: rgb(235,246,247,.5);
 }
 .list-nav{
@@ -43,7 +63,7 @@ h1, ul {
   color: darkslategrey;
 }
 
-.grid-f {
+.foot {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 3fr;
@@ -57,9 +77,16 @@ footer{
 .galaxy-brain {
   width: 25vw;
 }
+#code {
+  margin: auto;
+  display: block;
+}
+.index{
+  text-decoration: none;
+}
 
 @media (min-width: 1200px){
-  img{
+  .galaxy-brain{
     content: url(../images/galaxy-brain.png); /*Need to replace alt text with Javascript*/
   }
 }
