@@ -12,7 +12,7 @@ header{
   text-align: center;
   padding-top: 10vh;
   font-size: 4em;
-  
+  color: RGB(235,246,247);
 }
 h1{
   padding: 0.67em 0 0 0;
@@ -25,7 +25,7 @@ h1, ul {
   padding: 1vh 5vw;
 }
 .nav-cont{
-  background-color: RGB(235,246,247,.5);
+  background-color: rgb(235,246,247,.5);
 }
 .list-nav{
   list-style-type: none;
@@ -40,6 +40,7 @@ h1, ul {
 
 .grid-welcome{
   background-color: #D0BC68;
+  color: darkslategrey;
 }
 
 .grid-f {
@@ -48,7 +49,7 @@ h1, ul {
   grid-template-columns: 1fr 3fr;
 }
 footer{
-  background-color: #B5DCE8;
+  background-color: rgb(174,129,83);
 }
 .galaxy-brain {
   width: 25vw;
