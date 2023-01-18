@@ -40,7 +40,7 @@ h1{
   padding: 0.67em 0 0 0;
 }
 .list-welcome{
-  padding: 1vh 5vw;
+  padding: 1vh 2vw;
 }
 .list-horizontal li{
   display: inline-block;
@@ -89,7 +89,9 @@ h1{
   background-color: rgb(208, 188, 104, .85);
   color: darkslategrey;
 }
-
+.welcome-padder{
+  padding-left: 10px;
+}
 .foot {
   display: grid;
   width: 100%;
