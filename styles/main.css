@@ -184,6 +184,16 @@ footer{
 .tooltip:hover .tooltip-text {
   visibility: visible;
 }
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #008CBA transparent transparent transparent;
+}
 
 @media (min-width: 1200px){
   .galaxy-brain{
