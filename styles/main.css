@@ -19,6 +19,8 @@ header{
   color: RGB(235,246,247);
   width: 80vw;
   margin: auto;
+  border-radius: 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .h1-welcome{
   text-align: center;
@@ -37,7 +39,7 @@ h1, ul {
   text-align: center;
 }
 h1{
-  padding: 0.67em 0 0 0;
+  padding: 0.67em 0.33em 0 0.33em;
 }
 .list-welcome{
   padding: 1vh 2vw;
@@ -48,11 +50,15 @@ h1{
 }
 .nav-cont{
   background-color: rgb(235,246,247,.7);
+  border-radius: 25px;
+  box-shadow: 10px 10px 9px -5px;
 }
 .blog-cont{
   background-color: rgb(235,246,247,.7);
   width: 80vw;
   margin: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 9px -5px;
 }
 .list-nav{
   list-style-type: none;
@@ -86,8 +92,11 @@ h1{
 }
 
 .grid-welcome{
+  background-image: linear-gradient(rgb(208, 188, 104, .85), rgb(143,170,190));
   background-color: rgb(208, 188, 104, .85);
   color: darkslategrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 .welcome-padder{
   padding-left: 10px;
@@ -98,18 +107,20 @@ h1{
   grid-template-columns: 1fr 3fr;
 }
 footer{
-  background-color: rgb(174,129,83,.8);
+  background-image: linear-gradient(to right, rgba(174,129,83,1), rgba(235,246,247,0.60));
   position: relative;
   top: 20vh;
   vertical-align: bottom;
   width: 80vw;
  margin: auto;
+ border-radius: 10px;
 }
 .galaxy-brain {
   width: 25vw;
   display: block;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 #code {
   margin: auto;
@@ -118,6 +129,7 @@ footer{
 .index{
   text-decoration: none;
 }
+
 
 @media (min-width: 1200px){
   .galaxy-brain{
@@ -155,3 +167,4 @@ footer{
     min-height: 30vh;
   }
 }
+
