@@ -107,6 +107,7 @@ h1{
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 6.67vh;
   grid-auto-columns: 26.67vw;
+  margin-top: 20vh;
 }
 .foot-1 {
   grid-column-start: 1;
@@ -142,7 +143,6 @@ justify-content: center;
 footer{
   background-image: linear-gradient(to right, rgba(174,129,83,1), rgba(235,246,247,0.60));
   position: relative;
-  top: 20vh;
   vertical-align: bottom;
   width: 80vw;
  margin: auto;
@@ -219,6 +219,18 @@ footer{
   body {
     width: 100%;
   }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .grid-welcome{
+    margin-top: 2.5vh;
+  }
+  .nav-cont{
+    margin-top: 2.5vh;
+  }
+  .foot{
+    margin-top: 2.5vh;
+  }
 }
 
 @media (max-width: 320px){
@@ -229,10 +241,9 @@ footer{
     height: 15vh;
     padding-top: 7.5vh;
     font-size: 3em;
+    width: 95%;
   }
-  .grid {
-    display: block;
-  }
+
   .grid-welcome{
     margin-top: 5vh;
     min-height: 50vh;
@@ -240,6 +251,12 @@ footer{
   .nav-cont{
     margin-top: 5vh;
     min-height: 30vh;
+  }
+  .foot{
+    margin-top: 25vh;
+  }
+  .grid, footer{
+    width: 95%;
   }
 }
 
