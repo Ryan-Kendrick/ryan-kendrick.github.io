@@ -92,7 +92,7 @@ h1{
   display: grid;
   width: 80vw;
   grid-template-columns: 2fr 2fr;
-  height: 70vh;
+  min-height: 70vh;
   margin: auto;
 }
 
