@@ -22,6 +22,11 @@ header{
   border-radius: 10px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+#home-icon{
+  position: absolute;
+  top: 1.5vh;
+  left: 11vw;
+}
 .h1-welcome{
   text-align: center;
 }
@@ -49,12 +54,12 @@ h1{
   padding: 5vw;
 }
 .nav-cont{
-  background-color: rgb(235,246,247,.7);
+  background-color: rgb(235,246,247,.85);
   border-radius: 25px;
   box-shadow: 10px 10px 9px -5px;
 }
 .blog-cont{
-  background-color: rgb(235,246,247,.7);
+  background-color: rgb(235,246,247,.85);
   width: 80vw;
   margin: auto;
   border-radius: 10px;
@@ -241,12 +246,13 @@ footer{
     height: 15vh;
     padding-top: 7.5vh;
     font-size: 3em;
-    width: 95%;
+    width: 90%;
   }
 
   .grid-welcome{
     margin-top: 5vh;
     min-height: 50vh;
+    overflow: auto;
   }
   .nav-cont{
     margin-top: 5vh;
@@ -256,7 +262,7 @@ footer{
     margin-top: 25vh;
   }
   .grid, footer{
-    width: 95%;
+    width: 90%;
   }
 }
 
