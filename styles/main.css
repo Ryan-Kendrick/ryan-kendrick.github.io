@@ -167,7 +167,7 @@ footer{
   object-fit: cover;
   border-radius: 10px;
 }
-#code {
+.code {
   margin: auto;
   display: block;
 }

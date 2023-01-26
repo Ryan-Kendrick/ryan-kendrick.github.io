@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../styles/main.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <title>JavaScript: Theoretical Basics</title>
+    </head>
+    <body>
+      <header>
+      <a class="index" href="../index.html"><svg fill="white" height="36px" width="36px" version="1.1" id="home-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        viewBox="0 0 512 512" xml:space="preserve" alt="home">
+      <g>
+       <g>
+         <path d="M256,2.938l-256,256v48.427h62.061v201.697h155.152V384.941h77.576v124.121h155.151V307.365H512v-48.427L256,2.938z
+            M403.394,260.82v201.697h-62.061V338.396H170.667v124.121h-62.061V260.82H63.943L256,68.762L448.057,260.82H403.394z"/>
+       </g>
+      </g>
+      </svg>
+      Ryan's Thoughts</header></a>
+<main>
+<div class="blog-cont">
+<h1>JavaScript: Theoretical Basics</h1>
+<p>JavaScript is one of the three building blocks of the modern Web, the other two being HTML & CSS. We&apos;re going to look at JavaScript, how it relates to the other building blocks, and the basic theoretical concepts behind how it works.</p>
+<h2>The Three Building Blocks</h2>
+<p>When an HTML loads the raw content of a Web page, CSS then gets applied to it to give it a nice presentation by perhaps resizing or colouring different elements of the page. Once the page is fully loaded, the work of HTML and CSS are done. All there is to do now is marvel at the result until we&apos;re ready to visit another page and have them whip up another masterpiece.</p>
+
+<p>JavaScript is different, it doesn&apos;t sleep, its work is never done. JavaScript is why when you&apos;re on social media or reading the news, it increasingly isn&apos;t necessary to refresh the page to see the latest updates. They simply appear as they are available. JavaScript is the dynamic part of the web page, capable of changing HTML & CSS on the fly. For example, when there is an update to a breaking news story, JavaScript can tell the HTML to add another paragraph to the top of the page to present the new information.</p>
+<h2>Control Flow</h2>
+<p>Control Flow is the technical jargon for the order in which code executes. JavaScript scripts execute in a simple manner from top to bottom, with a few very important exceptions. These exceptional cases are what give JavaScript the appearance of intelligence. Loops are one such exceptional case. Sometimes you want to do something multiple times, a good example of this is when you are searching for something.</p>
+<p>Like a moderately organised person, I keep all of my sauces together in my cupboard. While I know where my sauces are, sometimes I don&apos;t know where a particular sauce is, or even if I have it at all. Similar situations arise in programming all the time. We can solve this problem of finding the chilli sauce through a loop which interrupts the normal control flow to pick up each of the sauce bottles in our pantry to see if it is the chilli sauce.</p>
+<img class="code" src="../images/for-loop.jpg" alt="code demonstrating a for loop">
+<p>This demonstrates the kind of dynamism (and chilli) that JavaScript can bring to the table. It interrupts the normal control flow to run a search and if successful lets us know where the chilli sauce is located. We could do a lot more with such a loop, perhaps add an else statement specifying what to do if the chilli sauce isn&apos;t found.</p>
+<h2>Arrays, objects and functions</h2>
+<p>In the above example we searched an array of sauces called sauces to try to find the one we were looking for. An array is one way to store data in JavaScript, useful for when you have a simple list of items. If our data were to become more complex, for example if we wanted to store nutritional information about our sauces, an object might be a more convenient way to store that information. </p>
+<img class="code" src="../images/sauce-object.jpg" alt="code demonstrating an object containing data for a sauce">
+<p>Rather than being a simple list of items, objects take the structure of "key: value", and are like a list in themselves. If you&apos;re bold, you can even put objects inside of objects. Perhaps sauceOne is an object within another object called sauces which contains all of the other sauces and their nutritional information</p>
+<p>Another important concept to consider is the concept of a function. A function is a reusable block of code - useful whenever we have code that we need to use multiple times. For example what if we have sugarfree variants of our sauces and need to change the sugar content of our sauce? Below is an example of such a function that would be useful when we're looping through our sauces:</p>
+<img class="code" src="../images/sauce-function.jpg" alt="code demonstrating a function for altering sauce sugar content">
+<h2>The DOM</h2> 
+<p>The DOM (Document Object Model) is a representation of an HTML document comprised of individual nodes. It is structured as a tree with branching nodes. For example, there will be a node for each &lt;p&gt; element, a node for each attribute, and a node for its text content. These give places where a scripting language, such as JavaScript, can insert itself and change the content or provide additional functionality.</p>
+
+<p>The DOM is where HTML, CSS and JavaScript meet. It is the common ground constructed to give languages of various types - markup, stylesheet, programming - a place to interact and ultimately form the kinds of interesting and dynamic web pages we have come to expect. Without the DOM, JavaScript wouldn&apos;t have a representation of web pages. Which is to say, without the DOM, JavaScript would be useless for providing the kind of frontend interactive content that it is known for because it wouldn&apos;t understand what a web page is.</p>
+
+</div>
+</main>
+<footer>
+  <div class="foot">
+    <div class="foot-1">
+    <img class="galaxy-brain" src="../images/galaxy-brain-plus.png" alt="a woman so smart that she exists beyond time with rings of laserbeams around her head">
+  </div>
+  <div class="foot-2">
+      <p class="para-f">Ryan's blog and code playground, made with the help of free, no attribution resources from all over the place.</p>
+    </div>
+    <div class="foot-3">
+      <button class="btn-dis tooltip">Discord<span class="tooltip-text">ryan-kendrick#8149</span></button>
+    </div>
+    </div>
+</footer>
