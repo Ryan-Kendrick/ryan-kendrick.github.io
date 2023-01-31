@@ -57,6 +57,9 @@ h2{
   display: inline-block;
   padding: 5vw;
 }
+.list-blog{
+  margin-block-start: 1em;
+}
 .nav-cont{
   background-color: rgb(235,246,247,.85);
   border-radius: 25px;

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../styles/main.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <title>Problem Solving</title>
+    </head>
+    <body>
+      <header>
+      <a class="index" href="../index.html"><svg fill="white" height="36px" width="36px" version="1.1" id="home-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        viewBox="0 0 512 512" xml:space="preserve" alt="home">
+      <g>
+       <g>
+         <path d="M256,2.938l-256,256v48.427h62.061v201.697h155.152V384.941h77.576v124.121h155.151V307.365H512v-48.427L256,2.938z
+            M403.394,260.82v201.697h-62.061V338.396H170.667v124.121h-62.061V260.82H63.943L256,68.762L448.057,260.82H403.394z"/>
+       </g>
+      </g>
+      </svg>
+      Ryan's Thoughts</header></a>
+<main>
+<div class="blog-cont">
+  <h1 class="h1-blog">Problem Solving</h1>
+  <p>
+    On Monday I got stuck on a problem for an hour and a half. When I found out the solution I was exasperated, because it was the exact same problem I burned an hour and a half on <em>last monday</em>. I guess sometimes it doesn&apos;t stick the first time.
+  </p>
+  <h2 class="h2-blog">The Problem</h2>
+  <p>
+    The task at hand was to take a word from a sentence and feed it into my code. The problem is that sentences - or "strings" as we call them - aren&apos;t allowed to just show up anywhere in JavaScript. No matter how hard I tried to write my code in a different way, no matter what obscure trick from Google searches I used to try to convert the string to another type of data, the problem persisted. Eventually, I decided to take a break and go for a very grumpy walk.
+  </p>
+  <p>
+    While on my walk, I couldn&apos;t help but think about the problem and all the ways I could write my solution. I walked through each step of what needed to happen in simple terms. Then it hit me, this is that odd situation where you have to use square brackets around the word. For those in the know, my nemesis is dot notation. For the second week in a row I was burning the hours on my inability to recognise the need to switch to the lesser-used bracket notation. I felt frustrated from beginning to end, but perhaps it doesn&apos;t always stick the first time. This experienced showed me the value of breaking down the problem in simple terms - the "Rubber ducky method".
+  </p>
+  <p>
+    My most trusted method is logging each step in my code to the console. Sometimes I don&apos;t even bother with console logging and simply run lines through Chrome DevTools and watch what happens. When manipulating strings and their list-like counterparts, <em>arrays</em>, this comes in handy. Any time I have to turn an array into a string or vice versa, and then do something to it I forget a step. I forget to convert it back, I forget to split the string at the right point, I forget to specify that I don&apos;t want commas between every word in my joined array. Unlike with my nemesis, I feel clever pasting each line into DevTools and identifying the source of the unexpected output. It is satisfying to recognise the problem and throw together the solution with confidence that it will work next time. I basically made every mistake all at once today. Pasting each line into DevTools taught me how to correctly separate, manipulate, and then reconnect strings without pesky default behaviour leading to unexpected results.
+  </p>
+  <h2 class="h2-blog">Reflections on Problem-Solving Techniques</h2>
+  <ul class="list-blog">
+    <li>Pseudocode</li>
+    <p>This is something I need to use more. I noticed on a larger project called JavaScript Cafe that pseudocode would have helped me save time</p>
+    <li>Trying something</li>
+    <p>One of my favourites! Especially in DevTools where I can quickly whip up variables and inputs, seeing immediately what happens</p>
+    <li>Rubber ducky method</li>
+    <p>I had the aforementioned revelation of its value and will be taking many grumpy walks in the near future</p>
+    <li>Reading error messages</li>
+    <p>Mixed feelings about this one. TypeErrors and unexpected [thing] errors are helpful and easy to understand. When something is not a function I know my syntax is incorrect but it can take a lot of work to figure out why</p>
+    <li>Console.logging</li>
+    <p>Extremely handy but the more comfortable I get with JavaScript the more I prefer pasting lines into DevTools where I can quickly follow up by testing solutions</p>
+    <li>Googling</li>
+    <p>I am quite confident with Googling except when it tells me to use eval() rather than just telling me to stop using dot notation. The results are sometimes for problems that are less simple than what I am dealing with</p>
+    <li>Asking your peers for help</li>
+    <p>Not very confident with asking peers for help at this stage. I haven&apos;t established rapport with many people. Something I will fix at bootcamp</p>
+    <li>Asking coaches for help</li>
+    <p>This isn&apos;t so bad!</p>
+    <li>Improving your process with reflection</li>
+    <p>Very confident. Thanks to reflection I reach out for help in Discord sooner when Googling is hopeless. It has always led me to rapid-firing lines in DevTools</p>
+  </ul>
+</div>
+</main>
+<footer>
+  <div class="foot">
+    <div class="foot-1">
+    <img class="galaxy-brain" src="../images/galaxy-brain-plus.png" alt="a woman so smart that she exists beyond time with rings of laserbeams around her head">
+  </div>
+  <div class="foot-2">
+      <p class="para-f">Ryan's blog and code playground, made with the help of free, no attribution resources from all over the place.</p>
+    </div>
+    <div class="foot-3">
+      <button class="btn-dis tooltip">Discord<span class="tooltip-text">ryan-kendrick#8149</span></button>
+    </div>
+    </div>
+</footer>
