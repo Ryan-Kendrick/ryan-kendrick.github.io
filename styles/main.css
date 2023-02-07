@@ -94,6 +94,9 @@ h2, h3{
   padding-bottom: 1.5vh;
   padding-top: 1.5vh;
 }
+.lastItem {
+  border-bottom: none
+}
 .view-more {
   padding-bottom: 0vh;
   border-bottom: 2px solid darkgray;
