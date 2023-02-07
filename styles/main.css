@@ -35,10 +35,13 @@ h1, ul {
 }
 .h1-blog {
   text-align: center;
-  padding-bottom: 1vh;
+  padding-bottom: 2vh;
 }
-.blog-cont p, .blog-cont h2{
-  padding: 0 2vw 0.5vw 2vw;
+.h2-blog {
+  padding: 1vh 0.8vw;
+}
+p{
+  padding: 0 1vw 0.5vw 1vw;
 }
 .blog-cont h1{
   text-align: center;
